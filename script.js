@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const keypressOutput = document.getElementById('keypress-output');
     
     keypressInput.addEventListener('keyup', function(e) {
-        keypressOutput.textContent = `You pressed: ${e.key} (KeyCode: ${e.keyCode})`;
+        keypressOutput.textContent = `You pressed: ${e.key})`;
     });
     
     // 4. Secret Actions (Bonus)
