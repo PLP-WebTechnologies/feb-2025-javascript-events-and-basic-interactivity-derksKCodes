@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const hoverOutput = document.getElementById('hover-output');
     
     hoverBox.addEventListener('mouseenter', function() {
-        hoverOutput.textContent = "You're hovering! ✨";
+        hoverOutput.textContent = "Hovering trigger! ✨";
     });
     
     hoverBox.addEventListener('mouseleave', function() {
